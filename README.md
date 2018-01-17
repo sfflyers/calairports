@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## SF Flyers
 
-You can use the [editor on GitHub](https://github.com/sfflyers/calairports/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> SF Flyers is a group of young aviation minded people in San Francisco. The goals of group are two fold:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> 1. Give members with their tickets places to go and reasons to keep flying.
+> 1. Encourage members to complete their training and get their tickets.
 
-### Markdown
+Request membership to the [SF Flyers ](https://www.facebook.com/groups/302173696566594/) Facebook group.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How to edit the *California airports* page
 
-```markdown
-Syntax highlighted code block
+The [*California airports*](https://sfflyers.github.io/calairports/) page is edited by changing the `index.md` file in this github repository. This file is written in [markdown](https://guides.github.com/features/mastering-markdown) (refer to the link for information about how to format text in an edits). GitHub Pages processes the markdown file automatically each time a change is made to it to build the actual site (using [Jekyll](https://jekyllrb.com/)).
 
-# Header 1
-## Header 2
-### Header 3
+Anyone on GitHub can propose a change by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request/). Pull requests then must accepted, and merged to the master branch by the Repository Collaborators before they are visible on the site.
 
-- Bulleted
-- List
+### Adding Images
 
-1. Numbered
-2. List
+In your pull request, add any images you'd like to add to the page to the `/img` folder.
 
-**Bold** and _Italic_ and `Code` text
+Insert the image into the page by adding the following to `index.md` in the appropriate place.
 
-[Link](url) and ![Image](src)
 ```
+![0Q5-Shelter-Cove](/img/IMG_0131.jpg){:class="img-responsive"}
+```
+The portion in `[]` is the image tag and should be the airport identified and name separated by hypens.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The portion in `()` is the path to your image file.
 
-### Jekyll Themes
+## Contact
+*Contact on GitHub or by joining the [SF Flyers](https://www.facebook.com/groups/302173696566594/) Facebook group*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sfflyers/calairports/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Repository Collaborators:
+* @apfriedman | [fb](https://www.facebook.com/apfriedman)
